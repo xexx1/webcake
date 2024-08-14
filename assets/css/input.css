@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('/assets/font/Kanit-ExtraLight.ttf');
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+
+.full-screen{
+    height: 100vh;
+}
+
+.hero{
+    background-image: url('/assets/img/Brownie-dessert-cake-sweet-45202.jpg');
+    background-size: cover;
+}
